@@ -37,14 +37,16 @@
 
 ## 📈 Training History
 
-![Training History — Loss & Accuracy per Epoch](C:/Users/rulxu/.gemini/antigravity-ide/brain/cae6ab39-57d4-498d-ac77-342883cc2726/training_history.png)
+<img width="957" height="342" alt="image" src="https://github.com/user-attachments/assets/388c37e3-3130-44f9-9c30-f1c1fb009b2c" />
+
 
 - Training dan Validation curves menunjukkan **konvergensi stabil tanpa overfitting**
 - Akurasi melampaui target 90% sejak epoch ~15
 
 ## 📊 Prediction Analysis
 
-![Prediction Analysis — Distribusi Probabilitas](C:/Users/rulxu/.gemini/antigravity-ide/brain/cae6ab39-57d4-498d-ac77-342883cc2726/prediction_analysis.png)
+<img width="975" height="380" alt="image" src="https://github.com/user-attachments/assets/8b52535d-89d5-448d-a271-5f2e541d58ba" />
+
 
 - Distribusi probabilitas menunjukkan **separasi yang jelas** antara kelas Normal (0) dan Alihkan (1)
 - Mayoritas prediksi benar (titik hijau), sangat sedikit kesalahan (titik merah)
