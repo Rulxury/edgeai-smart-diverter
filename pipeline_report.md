@@ -60,7 +60,7 @@
 | **TFLite INT8 (Quantized)** | **3.53 KB** | **7.6x kompresi** |
 
 > [!IMPORTANT]
-> Akurasi setelah kuantisasi INT8: **94.84%** — tidak ada penurunan akurasi! (bahkan naik 0.06%)
+> Akurasi setelah kuantisasi INT8: **94.84%** : tidak ada penurunan akurasi! (bahkan naik 0.06%)
 
 ---
 
