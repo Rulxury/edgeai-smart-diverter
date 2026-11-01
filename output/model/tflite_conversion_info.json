@@ -1,0 +1,12 @@
+{
+  "tflite_float_file": "output/model\\smart_diverter_float.tflite",
+  "tflite_quant_file": "output/model\\smart_diverter.tflite",
+  "accuracy_float": 0.9382,
+  "accuracy_quant": 0.9388,
+  "accuracy_drop": -0.0005999999999999339,
+  "keras_size_bytes": 26734,
+  "tflite_float_size_bytes": 2756,
+  "tflite_quant_size_bytes": 3528,
+  "compression_ratio_keras_to_quant": 7.58,
+  "compression_ratio_float_to_quant": 0.78
+}

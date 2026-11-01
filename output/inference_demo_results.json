@@ -1,0 +1,210 @@
+[
+  {
+    "input": {
+      "jam": 12.0,
+      "cuaca": 2,
+      "cuaca_label": "Cerah",
+      "daya_surya": 1800,
+      "toren_persen": 20.0,
+      "suhu_heater": 35.0
+    },
+    "output": {
+      "probabilitas": 0.9961,
+      "threshold_watt": 1007,
+      "threshold_reg_hex": "0x03EF",
+      "alihkan": true,
+      "confidence": 99.6,
+      "relay_out": 1
+    },
+    "hardware": {
+      "apb_write": {
+        "PADDR": "0x08",
+        "PWRITE": 1,
+        "PWDATA": "0x000003EF",
+        "description": "Write threshold 1007W ke THRESHOLD_REG"
+      }
+    }
+  },
+  {
+    "input": {
+      "jam": 11.5,
+      "cuaca": 2,
+      "cuaca_label": "Cerah",
+      "daya_surya": 1500,
+      "toren_persen": 90.0,
+      "suhu_heater": 30.0
+    },
+    "output": {
+      "probabilitas": 0.9453,
+      "threshold_watt": 1109,
+      "threshold_reg_hex": "0x0455",
+      "alihkan": true,
+      "confidence": 94.5,
+      "relay_out": 1
+    },
+    "hardware": {
+      "apb_write": {
+        "PADDR": "0x08",
+        "PWRITE": 1,
+        "PWDATA": "0x00000455",
+        "description": "Write threshold 1109W ke THRESHOLD_REG"
+      }
+    }
+  },
+  {
+    "input": {
+      "jam": 9.0,
+      "cuaca": 2,
+      "cuaca_label": "Cerah",
+      "daya_surya": 900,
+      "toren_persen": 40.0,
+      "suhu_heater": 45.0
+    },
+    "output": {
+      "probabilitas": 0.9805,
+      "threshold_watt": 1039,
+      "threshold_reg_hex": "0x040F",
+      "alihkan": true,
+      "confidence": 98.0,
+      "relay_out": 1
+    },
+    "hardware": {
+      "apb_write": {
+        "PADDR": "0x08",
+        "PWRITE": 1,
+        "PWDATA": "0x0000040F",
+        "description": "Write threshold 1039W ke THRESHOLD_REG"
+      }
+    }
+  },
+  {
+    "input": {
+      "jam": 8.0,
+      "cuaca": 0,
+      "cuaca_label": "Hujan",
+      "daya_surya": 100,
+      "toren_persen": 30.0,
+      "suhu_heater": 40.0
+    },
+    "output": {
+      "probabilitas": 0.0234,
+      "threshold_watt": 2953,
+      "threshold_reg_hex": "0x0B89",
+      "alihkan": false,
+      "confidence": 97.7,
+      "relay_out": 0
+    },
+    "hardware": {
+      "apb_write": {
+        "PADDR": "0x08",
+        "PWRITE": 1,
+        "PWDATA": "0x00000B89",
+        "description": "Write threshold 2953W ke THRESHOLD_REG"
+      }
+    }
+  },
+  {
+    "input": {
+      "jam": 12.0,
+      "cuaca": 2,
+      "cuaca_label": "Cerah",
+      "daya_surya": 1600,
+      "toren_persen": 95.0,
+      "suhu_heater": 85.0
+    },
+    "output": {
+      "probabilitas": 0.6406,
+      "threshold_watt": 1718,
+      "threshold_reg_hex": "0x06B6",
+      "alihkan": true,
+      "confidence": 64.1,
+      "relay_out": 1
+    },
+    "hardware": {
+      "apb_write": {
+        "PADDR": "0x08",
+        "PWRITE": 1,
+        "PWDATA": "0x000006B6",
+        "description": "Write threshold 1718W ke THRESHOLD_REG"
+      }
+    }
+  },
+  {
+    "input": {
+      "jam": 16.0,
+      "cuaca": 1,
+      "cuaca_label": "Mendung",
+      "daya_surya": 300,
+      "toren_persen": 50.0,
+      "suhu_heater": 55.0
+    },
+    "output": {
+      "probabilitas": 0.0469,
+      "threshold_watt": 2906,
+      "threshold_reg_hex": "0x0B5A",
+      "alihkan": false,
+      "confidence": 95.3,
+      "relay_out": 0
+    },
+    "hardware": {
+      "apb_write": {
+        "PADDR": "0x08",
+        "PWRITE": 1,
+        "PWDATA": "0x00000B5A",
+        "description": "Write threshold 2906W ke THRESHOLD_REG"
+      }
+    }
+  },
+  {
+    "input": {
+      "jam": 12.0,
+      "cuaca": 1,
+      "cuaca_label": "Mendung",
+      "daya_surya": 520,
+      "toren_persen": 50.0,
+      "suhu_heater": 50.0
+    },
+    "output": {
+      "probabilitas": 0.6992,
+      "threshold_watt": 1601,
+      "threshold_reg_hex": "0x0641",
+      "alihkan": true,
+      "confidence": 69.9,
+      "relay_out": 1
+    },
+    "hardware": {
+      "apb_write": {
+        "PADDR": "0x08",
+        "PWRITE": 1,
+        "PWDATA": "0x00000641",
+        "description": "Write threshold 1601W ke THRESHOLD_REG"
+      }
+    }
+  },
+  {
+    "input": {
+      "jam": 7.0,
+      "cuaca": 2,
+      "cuaca_label": "Cerah",
+      "daya_surya": 600,
+      "toren_persen": 60.0,
+      "suhu_heater": 40.0
+    },
+    "output": {
+      "probabilitas": 0.8516,
+      "threshold_watt": 1296,
+      "threshold_reg_hex": "0x0510",
+      "alihkan": true,
+      "confidence": 85.2,
+      "relay_out": 1
+    },
+    "hardware": {
+      "apb_write": {
+        "PADDR": "0x08",
+        "PWRITE": 1,
+        "PWDATA": "0x00000510",
+        "description": "Write threshold 1296W ke THRESHOLD_REG"
+      }
+    }
+  }
+]

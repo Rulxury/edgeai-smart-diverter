@@ -1,0 +1,58 @@
+{
+  "model_name": "SmartDiverter_MLP",
+  "input_features": [
+    "jam",
+    "cuaca",
+    "daya_surya",
+    "toren_persen",
+    "suhu_heater"
+  ],
+  "architecture": [
+    {
+      "layer": "Input",
+      "units": 5
+    },
+    {
+      "layer": "Dense",
+      "units": 8,
+      "activation": "relu"
+    },
+    {
+      "layer": "Dense",
+      "units": 4,
+      "activation": "relu"
+    },
+    {
+      "layer": "Dense",
+      "units": 1,
+      "activation": "sigmoid"
+    }
+  ],
+  "total_parameters": 89,
+  "optimizer": "Adam",
+  "learning_rate": 0.001,
+  "loss_function": "binary_crossentropy",
+  "normalization": "MinMaxScaler [0, 1]",
+  "feature_ranges": {
+    "jam": [
+      6.0,
+      18.0
+    ],
+    "cuaca": [
+      0,
+      2
+    ],
+    "daya_surya": [
+      0,
+      2500
+    ],
+    "toren_persen": [
+      0,
+      100
+    ],
+    "suhu_heater": [
+      25,
+      90
+    ]
+  }
+}
